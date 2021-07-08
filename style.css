@@ -8,7 +8,7 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.section-1{
     display: flex;
 }
 .half-width{
@@ -30,6 +30,52 @@ section{
     background-image: url(images/shapes/Frame\ 58.jpg);
     background-repeat: no-repeat;
 }
+#section-3 p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+#my-recipies{
+    text-align: center;
+}
+
+.containers {
+    display: flex;
+}
+
+.container {
+    width: 30%;
+    box-shadow: 10px 10px 40px black;
+    padding: 5px;
+    margin: 30px 40px 20px 30px;
+    border-radius: 15px;
+}
+
+.container img {
+    width: 90%;
+    margin: 15px;
+}
+
+.recipie-body {
+    padding: 10px 20px;
+}
+
+.recipie-title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    border-left: 5PX solid black;
+    padding-left: 10PX;
+}
+
+.recipie-discription {
+    text-align: justify;
+}
 footer{
     text-align:center;
+    background-color: black;
+    padding-bottom: 50px;
+    margin-top: 70px;
+}
+footer p{
+    color: white;
 }
