@@ -98,7 +98,10 @@ footer{
     text-align:center;
     background-color: black;
     padding-bottom: 50px;
-    margin-top: 70px;
+    margin-top: 80px;
+}
+h3{
+    color: white;
 }
 footer p{
     color: white;
